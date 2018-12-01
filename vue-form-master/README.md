@@ -6,6 +6,10 @@ A simple web form app built with Vue.
 
 Live demo: https://goofy-mestorf-0699ac.netlify.com
 
+## yarn install
+npm install -g yarn
+brew update
+
 ## Project setup
 ```
 yarn install
