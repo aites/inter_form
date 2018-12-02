@@ -29,3 +29,39 @@ yarn build
 ```
 yarn lint
 ```
+
+
+##
+### karma install (unit test)
+npm i -D karma mocha chai
+npm i -D karma-browserify browserify watchify
+sudo npm i -g karma-cli
+
+karma init
+
+karma.conf.js of setting
+> mocha
+> no
+
+> Chrome
+> Firefox
+>
+
+> test/**/*.js
+>
+
+>
+
+>
+
+> yes
+
+### test run 
+karma start
+
+
+
+### webpack error
+npm install webpack
+npm link webpack
+npm install @babel/core --save

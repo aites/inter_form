@@ -8,7 +8,7 @@
         <fieldset class="ui segment fields">
           <div class="field">
             <label>Store Type</label>
-            <select v-model="storeType">
+            <select id="store" v-model="storeType">
               <option
                 v-for="(option, index) in storeTypes"
                 :key="index"
